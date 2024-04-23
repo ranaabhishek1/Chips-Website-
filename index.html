@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chips Website | Abhishek </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
     
 <link
@@ -29,9 +30,9 @@ rel="stylesheet">
     </div> <!--end nav left-->
     <div class="nav-right"> <!--start nav right-->
 
-        <a href="#">home</a>
-        <a href="#">favorites</a>
-        <a href="#">care</a>
+        <a href="#page1">home</a>
+        <a href="#page2">favorites</a>
+        <a href="#page3">care</a>
         <a href="#">products</a>
         <a href="#">contact</a>
     </div> <!--end nav right-->
@@ -94,6 +95,74 @@ rel="stylesheet">
 
     </div> <!-- end page1 -->
 
+    
+<div id="page2"> <!-- start page2 -->
+
+    <h2>discover your </h2>
+    <h2>favorite flavours</h2>
+    <p>try some exotic flavours or delicious toppings.we have collected some delicious snack recipes from around the world for you.</p>
+
+    <div class="page2-extra">
+
+        <img src="img/cheese.png" alt="">
+        <img src="img/cheese.png" alt="">
+    
+    </div>
+
+<!-- Swiper -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="img/product-chips-1.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/product-chips-2.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/product-chips-3.png" alt="">
+      </div>
+      
+      <div class="swiper-slide">
+        <img src="img/product-chips-1.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/product-chips-2.png" alt="">
+      </div>
+      <div class="swiper-slide">
+        <img src="img/product-chips-3.png" alt="">
+      </div>
+    
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+<!-- end swipper -->
+
+</div> <!-- end page2 -->
+
+<div id="page3"> <!-- start page3 -->
+    <h2>enjoy and take</h2>
+    <h2>care of your health</h2>
+
+    <div class="page3-content"> <!--start page3 content-->
+        <div class="page3-left"> <!--start page3 left-->
+
+<img src="img/care-chips.png" alt="">
+
+        </div> <!--end page3 left-->
+        <div class="page3-right"> <!--start page3 right-->
+<p> <i class="ri-plant-line"></i>the potatoes that are made into snacks are grown and harvested and are 100% organic.</p>
+
+<p><i class="ri-fire-line"></i>we fry the fries with vegetables adn natural all for good care.</p>
+
+<p> <i class="ri-heart-pulse-line"></i>the potatoes are not processed,once cleaned they are cooked without preservatives.</p>
+
+<p><i class="ri-hand-heart-line"></i>they contain fewer calories and less fat for good health.</p>
+        </div> <!--end page3 right-->
+    </div> <!--end page3 content-->
+
+</div> <!-- end page3 -->
+
+
 
 
 
@@ -101,7 +170,24 @@ rel="stylesheet">
 
 
 <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- start Gsap -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js" integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+<!-- end Gsap -->
+
+<!-- start scroll trigger -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js" integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<!-- end scroll trigger -->
+
+<!-- start swipper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- end swipper js -->
+
+<!--start  main js -->
     <script src="script.js"></script>
+    <!--end main js -->
+
 </body>
 </html>
 
