@@ -8,6 +8,15 @@ function swiper(){
 
 swiper();
 
+var navMobileicon=document.querySelector(".nav-mobile-icon i");
+var navMobile=document.querySelector(".nav-mobile");
+
+
+
+
+
+
+
 var tl=gsap.timeline();
 
 tl.from(".page1-left",{
