@@ -360,7 +360,7 @@ margin-top: 5vh;
 }
 
 .page3-right{
-    margin-left: 6vw;
+    margin-left: 0vw;
 }
 .page3-right>p{
     font-family: poppins;
@@ -621,7 +621,7 @@ bottom: 5vh;
 
 .page5-right img{
     height:55vh;
-    margin-top: 16vh;
+    margin-top: 15.7vh;
     margin-left: 10vw;
 }
 
